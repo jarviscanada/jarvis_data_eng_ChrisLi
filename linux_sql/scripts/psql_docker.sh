@@ -1,6 +1,6 @@
 cmd=$1
 #start docker service
-systemctl status docker  || systemctl  start doecker
+systemctl status docker  || systemctl  start docker
 
 #handle arguments
 case $cmd in
