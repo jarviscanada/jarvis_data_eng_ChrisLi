@@ -1,3 +1,4 @@
+#! /bin/bash
 cmd=$1
 #start docker service
 systemctl status docker  || systemctl  start docker
